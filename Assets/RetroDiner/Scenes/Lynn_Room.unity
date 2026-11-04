@@ -8521,7 +8521,7 @@ PrefabInstance:
     - target: {fileID: -7754514074123443970, guid: 5ef7c33b57a958049a97c14c939eeb29,
         type: 3}
       propertyPath: m_Name
-      value: StickyNotePile
+      value: A4_Lined_Paper_
       objectReference: {fileID: 0}
     - target: {fileID: -2904460280870228390, guid: 5ef7c33b57a958049a97c14c939eeb29,
         type: 3}
@@ -8531,7 +8531,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ef7c33b57a958049a97c14c939eeb29,
         type: 3}
       propertyPath: m_Name
-      value: StickyNotePile
+      value: NotePile
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8541,6 +8541,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1976362109}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ef7c33b57a958049a97c14c939eeb29,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2060957976}
     - targetCorrespondingSourceObject: {fileID: -7754514074123443970, guid: 5ef7c33b57a958049a97c14c939eeb29,
         type: 3}
       insertIndex: -1
@@ -8549,6 +8553,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1399588266}
+    - targetCorrespondingSourceObject: {fileID: -7754514074123443970, guid: 5ef7c33b57a958049a97c14c939eeb29,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1399588269}
     - targetCorrespondingSourceObject: {fileID: -7754514074123443970, guid: 5ef7c33b57a958049a97c14c939eeb29,
         type: 3}
       insertIndex: -1
@@ -12834,6 +12842,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2575645836292291469, guid: 83ad771ae8617584abbf823facbc2bc3,
     type: 3}
   m_PrefabInstance: {fileID: 926187855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &929991572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ef7c33b57a958049a97c14c939eeb29,
+    type: 3}
+  m_PrefabInstance: {fileID: 565195412}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &931571234
 PrefabInstance:
@@ -32885,6 +32899,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6184431472880159936, guid: 5ef7c33b57a958049a97c14c939eeb29, type: 3}
+--- !u!114 &1399588269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399588260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde473526d2282d4bb20ad8f1a23b277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PaperNote
+  pile: {fileID: 0}
 --- !u!1001 &1400524648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42723,6 +42750,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 565195412}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2060957976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929991572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b08f1f006fb5e343af21c666966ef45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NotePile
+  paperPrefab: {fileID: 1399588260}
+  spawnPoint: {fileID: 1976362109}
 --- !u!1001 &2074059490
 PrefabInstance:
   m_ObjectHideFlags: 0
