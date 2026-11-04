@@ -9140,6 +9140,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 416770463}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &422149105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4842896475875890007, guid: 8b4daffb45488f144b89b5cba3022c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1344171366}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &429920215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20991,6 +20997,7 @@ GameObject:
   - component: {fileID: 1023405589}
   - component: {fileID: 1023405588}
   - component: {fileID: 1023405587}
+  - component: {fileID: 1023405593}
   m_Layer: 0
   m_Name: Food_Steak (4)
   m_TagString: Untagged
@@ -21035,7 +21042,19 @@ MonoBehaviour:
   smashVolume: 1
   OnSmash:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1765474491}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1023405588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21233,6 +21252,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023405585}
   m_Mesh: {fileID: -8744929016710986008, guid: 4ec56c2afa83878458536bef9dd74897, type: 3}
+--- !u!114 &1023405593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023405585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ddb50b6f0876a429d87c32d4474d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  replacementObject: {fileID: 422149105}
+  copyPosition: 1
+  copyRotation: 1
+  copyScale: 1
+  destroyOriginal: 1
+  destroyDelay: 0
 --- !u!1001 &1024922363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40415,6 +40452,21 @@ PrefabInstance:
       propertyPath: OnBreak.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4553568851738832998, guid: 8b4daffb45488f144b89b5cba3022c54,
+        type: 3}
+      propertyPath: OnSmash.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553568851738832998, guid: 8b4daffb45488f144b89b5cba3022c54,
+        type: 3}
+      propertyPath: OnSmash.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553568851738832998, guid: 8b4daffb45488f144b89b5cba3022c54,
+        type: 3}
+      propertyPath: OnSmash.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4731993388999583180, guid: 8b4daffb45488f144b89b5cba3022c54,
         type: 3}
       propertyPath: onSqueeze.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -40953,7 +41005,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1344171366}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1765474491}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fad2f22fe18c2bf46b033941144afa2e, type: 3}
@@ -49166,6 +49218,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15b4ad1863d01544b9e9151c6cfa997b,
     type: 3}
   m_PrefabInstance: {fileID: 937731281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1765474491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1994562971824033223, guid: 8b4daffb45488f144b89b5cba3022c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1344171366}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1766013850
 GameObject:
