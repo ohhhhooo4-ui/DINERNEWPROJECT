@@ -5,8 +5,8 @@
   <Project Path="NaughtyAttributes.Core.csproj" />
   <Project Path="NaughtyAttributes.Editor.csproj" />
   <Project Path="BNGHandPoser.csproj" />
-  <Project Path="Autohand.XR.csproj" />
   <Project Path="Autohand.Editor.csproj" />
+  <Project Path="Autohand.XR.csproj" />
   <Project Path="BNGHandPoseID.csproj" />
   <Project Path="Autohand.XR.Editor.csproj" />
 </Solution>
