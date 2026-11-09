@@ -41,6 +41,9 @@ public class CoffeeGrinder : MonoBehaviour
         // Optional: reset the basket before grinding
         if (socket.currentPortafilter.coffeeDose > 0f)
             return;
+        socket.currentPortafilter.coffeeGroundsLoosePivot.SetActive(true);
+
+        socket.currentPortafilter.coffeeGroundsTampedPivot.SetActive(false);
 
         grinding = true;
 

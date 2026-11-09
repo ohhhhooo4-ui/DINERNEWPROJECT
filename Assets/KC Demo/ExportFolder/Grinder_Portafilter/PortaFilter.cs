@@ -2,37 +2,66 @@ using UnityEngine;
 
 public class PortaFilter : MonoBehaviour
 {
+    public GameObject coffeeGroundsLoosePivot;
+
+    public GameObject coffeeGroundsTampedPivot;
 
     public float coffeeDose = 0f;
 
     public bool tamped = false;
 
-    public Transform coffeeGroundsVisual;
-
-    private Vector3 originalScale;
+    private Vector3 originalLooseScale;
 
     private void Start()
     {
-        originalScale = coffeeGroundsVisual.localScale;
+        coffeeGroundsLoosePivot.SetActive(false);
 
-        // Start empty
-        coffeeGroundsVisual.localScale =
-            new Vector3(originalScale.x, 0f, originalScale.z);
-    }
+        coffeeGroundsTampedPivot.SetActive(false);
 
-    private void FixedUpdate()
-    {
-        float fillAmount = Mathf.Clamp01(coffeeDose / 18f);
-
-        coffeeGroundsVisual.localScale =
-            new Vector3(1f, fillAmount, 1f);
+        originalLooseScale =
+            coffeeGroundsLoosePivot.transform.localScale;
     }
 
     private void Update()
     {
-        float fillAmount = Mathf.Clamp01(coffeeDose / 18f);
+        if (!tamped)
+        {
+            float fillAmount =
+                Mathf.Clamp01(coffeeDose / 18f);
 
-        coffeeGroundsVisual.localScale =
-            new Vector3(originalScale.x,originalScale.y * fillAmount,originalScale.z );
+            coffeeGroundsLoosePivot.transform.localScale =
+                new Vector3(
+                    originalLooseScale.x,
+                    originalLooseScale.y * fillAmount,
+                    originalLooseScale.z
+                );
+        }
+
+        if (tamped)
+        {
+            coffeeGroundsLoosePivot.SetActive(false);
+
+            coffeeGroundsTampedPivot.SetActive(true);
+        }
+
+    }
+
+    public void TampCoffee()
+    {
+        tamped = true;
+
+        Debug.Log("Switching Visuals");
+
+        coffeeGroundsLoosePivot.SetActive(false);
+
+        coffeeGroundsTampedPivot.SetActive(true);
+
+        Debug.Log(
+            "Loose Active: " +
+            coffeeGroundsLoosePivot.activeSelf);
+
+        Debug.Log(
+            "Tamped Active: " +
+            coffeeGroundsTampedPivot.activeSelf);
     }
 }
