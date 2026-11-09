@@ -20367,10 +20367,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1933257954}
+    - targetCorrespondingSourceObject: {fileID: 2359775290152183589, guid: 247e3c7f175c40eeab5fb79feac6a48f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1933257956}
     - targetCorrespondingSourceObject: {fileID: 1872548719956469347, guid: 247e3c7f175c40eeab5fb79feac6a48f,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1569000011}
+    - targetCorrespondingSourceObject: {fileID: 1872548719956469347, guid: 247e3c7f175c40eeab5fb79feac6a48f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1569000013}
   m_SourcePrefab: {fileID: 100100000, guid: 247e3c7f175c40eeab5fb79feac6a48f, type: 3}
 --- !u!1 &720631880 stripped
 GameObject:
@@ -51730,6 +51738,41 @@ MonoBehaviour:
   copyScale: 1
   destroyOriginal: 1
   destroyDelay: 0
+--- !u!114 &1569000013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569000007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d975bb4661eb244a698f2a75d13fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AutoHandAssembly::Autohand.Demo.Smash
+  smashForce: 1
+  destroyOnSmash: 1
+  releaseOnSmash: 0
+  effect: {fileID: 0}
+  createNewEffect: 1
+  applyVelocityOnSmash: 1
+  smashSound: {fileID: 0}
+  smashVolume: 1
+  OnSmash:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1120409380}
+        m_TargetAssemblyTypeName: Autohand.Demo.Smasher, AutoHandAssembly
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1569801818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59173,6 +59216,41 @@ MonoBehaviour:
   copyScale: 1
   destroyOriginal: 1
   destroyDelay: 0
+--- !u!114 &1933257956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933257950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d975bb4661eb244a698f2a75d13fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AutoHandAssembly::Autohand.Demo.Smash
+  smashForce: 1
+  destroyOnSmash: 1
+  releaseOnSmash: 0
+  effect: {fileID: 0}
+  createNewEffect: 1
+  applyVelocityOnSmash: 1
+  smashSound: {fileID: 0}
+  smashVolume: 1
+  OnSmash:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1120409380}
+        m_TargetAssemblyTypeName: Autohand.Demo.Smasher, AutoHandAssembly
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1935713671
 PrefabInstance:
   m_ObjectHideFlags: 0
