@@ -5,15 +5,38 @@ public class NotePile : MonoBehaviour
     public GameObject paperPrefab;
     public Transform spawnPoint;
 
+    private GameObject currentPaper;
+
+    private void Start()
+    {
+        PaperNote existingPaper = GetComponentInChildren<PaperNote>();
+
+        if (existingPaper != null)
+        {
+            currentPaper = existingPaper.gameObject;
+            existingPaper.pile = this;
+        }
+        else
+        {
+            SpawnPaper();
+        }
+    }
+
     public void SpawnPaper()
     {
-        GameObject paper = Instantiate(
+        if (currentPaper != null)
+            return;
+
+        currentPaper = Instantiate(
             paperPrefab,
             spawnPoint.position,
-            spawnPoint.rotation
-        );
+            spawnPoint.rotation);
 
-        PaperNote note = paper.GetComponent<PaperNote>();
+        currentPaper.transform.localScale =
+            paperPrefab.transform.localScale;
+
+        PaperNote note =
+            currentPaper.GetComponent<PaperNote>();
 
         if (note != null)
         {
@@ -21,8 +44,9 @@ public class NotePile : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void PaperTaken()
     {
+        currentPaper = null;
         SpawnPaper();
     }
 }

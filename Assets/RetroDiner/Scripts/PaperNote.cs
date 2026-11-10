@@ -3,41 +3,42 @@ using Autohand;
 
 public class PaperNote : MonoBehaviour
 {
-    [HideInInspector]
     public NotePile pile;
 
-    private bool spawnedReplacement = false;
-
     private Grabbable grabbable;
+    private Rigidbody rb;
+    private bool hasBeenTaken;
 
     private void Start()
     {
         grabbable = GetComponent<Grabbable>();
+        rb = GetComponent<Rigidbody>();
 
-        if (grabbable != null)
+        if (rb != null)
         {
-            grabbable.OnGrabEvent += OnGrabbed;
+            rb.useGravity = false;
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
         }
     }
 
-    private void OnDestroy()
+    private void Update()
     {
-        if (grabbable != null)
-        {
-            grabbable.OnGrabEvent -= OnGrabbed;
-        }
-    }
-
-    private void OnGrabbed(Hand hand, Grabbable grabbed)
-    {
-        if (spawnedReplacement)
+        if (hasBeenTaken)
             return;
 
-        spawnedReplacement = true;
-
-        if (pile != null)
+        if (grabbable != null && grabbable.HeldCount() > 0)
         {
-            pile.SpawnPaper();
+            hasBeenTaken = true;
+
+            // Spawn replacement paper immediately
+            if (pile != null)
+            {
+                pile.PaperTaken();
+            }
+
+            // This paper is now independent from the pile
+            transform.SetParent(null);
         }
     }
 }
