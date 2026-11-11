@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Fluid
+  - Hands
+  - CookedPatty
+  - TopBun
   layers:
   - Default
   - TransparentFX
