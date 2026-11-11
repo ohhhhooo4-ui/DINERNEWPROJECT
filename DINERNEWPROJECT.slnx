@@ -4,8 +4,13 @@
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="NaughtyAttributes.Core.csproj" />
   <Project Path="NaughtyAttributes.Editor.csproj" />
+  <Project Path="SnogDialogueEditor.csproj" />
   <Project Path="BNGHandPoser.csproj" />
+  <Project Path="SnogDialogueRuntime.csproj" />
+  <Project Path="XNodeEditor.csproj" />
+  <Project Path="SnogDialogueDemo.csproj" />
   <Project Path="Autohand.Editor.csproj" />
+  <Project Path="XNode.csproj" />
   <Project Path="Autohand.XR.csproj" />
   <Project Path="BNGHandPoseID.csproj" />
   <Project Path="Autohand.XR.Editor.csproj" />

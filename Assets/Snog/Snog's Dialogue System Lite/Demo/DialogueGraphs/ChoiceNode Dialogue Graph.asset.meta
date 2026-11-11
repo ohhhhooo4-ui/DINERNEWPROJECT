@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 28111785ae277d848a737af71b82706f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Demo/DialogueGraphs/ChoiceNode
+    Dialogue Graph.asset
+  uploadId: 896052

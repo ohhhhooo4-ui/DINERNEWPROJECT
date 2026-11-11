@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 43f7c910f58a0b14ca968249cd0ff9d0
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Scripts/Editor/SnogDialogueEditor.asmdef
+  uploadId: 896052

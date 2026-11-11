@@ -1,0 +1,636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8937902121400634667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8707fcce6dfe488bd412c8f607895, type: 3}
+  m_Name: Line
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.LineNode
+  graph: {fileID: 11400000}
+  position: {x: 984, y: -376}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: -8937902121400634667}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: 6697584244402046139}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -8937902121400634667}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 5171086593437363386}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 1393068cc4194ca8979d3721e9e55e36
+  input: 0
+  speakerName: Snog
+  inlineText: That was a different path.
+  tags: []
+  speedMultiplier: 1
+  eventKey: 
+  startEventDelay: 0
+  autoAdvance: 0
+  autoAdvanceDelay: 1.5
+  next: 0
+--- !u!114 &-8536952701161071869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d457e1760c0beb549a7420101c6fa197, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.ChoiceNode
+  graph: {fileID: 11400000}
+  position: {x: 440, y: -24}
+  ports:
+    keys:
+    - input
+    - fallback
+    - outputs 0
+    - outputs 1
+    values:
+    - _fieldName: input
+      _node: {fileID: -8536952701161071869}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -7001302649989662995}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: fallback
+      _node: {fileID: -8536952701161071869}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -8536952701161071869}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6697584244402046139}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -8536952701161071869}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6592105609466306124}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  nodeId: 5ee9f954b6144c66847dc210023323de
+  input: 0
+  lockedChoiceDisplay: 1
+  lockedSuffix: ' (Locked)'
+  options:
+  - InlineText: Simple branch
+    LocalizationKey: 
+    Tags: []
+    Conditions: []
+  - InlineText: Another branch
+    LocalizationKey: 
+    Tags: []
+    Conditions: []
+  fallback: 0
+--- !u!114 &-7502898018614086805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8707fcce6dfe488bd412c8f607895, type: 3}
+  m_Name: Line
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.LineNode
+  graph: {fileID: 11400000}
+  position: {x: 984, y: 56}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: -7502898018614086805}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -6592105609466306124}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -7502898018614086805}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -933667532057098990}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 1393068cc4194ca8979d3721e9e55e36
+  input: 0
+  speakerName: Snog
+  inlineText: Same node, different outcome.
+  tags: []
+  speedMultiplier: 1
+  eventKey: 
+  startEventDelay: 0
+  autoAdvance: 0
+  autoAdvanceDelay: 1.5
+  next: 0
+--- !u!114 &-7255447830339299162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4587b57bac21cf64cbaf064f50c39d91, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.StartNode
+  graph: {fileID: 11400000}
+  position: {x: -392, y: -152}
+  ports:
+    keys:
+    - next
+    values:
+    - _fieldName: next
+      _node: {fileID: -7255447830339299162}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6013383260414371579}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: d161ff40ec404680bc8a595a28a34367
+  next: 0
+--- !u!114 &-7001302649989662995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8707fcce6dfe488bd412c8f607895, type: 3}
+  m_Name: Line
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.LineNode
+  graph: {fileID: 11400000}
+  position: {x: 168, y: -152}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: -7001302649989662995}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -6013383260414371579}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -7001302649989662995}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -8536952701161071869}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: d7261fb084844b72931bd641b80cc14f
+  input: 0
+  speakerName: Snog
+  inlineText: What do you want to test?
+  tags: []
+  speedMultiplier: 1
+  eventKey: 
+  startEventDelay: 0
+  autoAdvance: 0
+  autoAdvanceDelay: 1.5
+  next: 0
+--- !u!114 &-6592105609466306124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8707fcce6dfe488bd412c8f607895, type: 3}
+  m_Name: Line
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.LineNode
+  graph: {fileID: 11400000}
+  position: {x: 712, y: 56}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: -6592105609466306124}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 1
+        node: {fileID: -8536952701161071869}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -6592105609466306124}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -7502898018614086805}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 1393068cc4194ca8979d3721e9e55e36
+  input: 0
+  speakerName: Snog
+  inlineText: You chose Option B
+  tags: []
+  speedMultiplier: 1
+  eventKey: 
+  startEventDelay: 0
+  autoAdvance: 0
+  autoAdvanceDelay: 1.5
+  next: 0
+--- !u!114 &-6013383260414371579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8707fcce6dfe488bd412c8f607895, type: 3}
+  m_Name: Line
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.LineNode
+  graph: {fileID: 11400000}
+  position: {x: -104, y: -152}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: -6013383260414371579}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -7255447830339299162}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -6013383260414371579}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -7001302649989662995}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 23b817ebd9ea4697922467674a8223b0
+  input: 0
+  speakerName: Snog
+  inlineText: "Let\u2019s make a choice."
+  tags: []
+  speedMultiplier: 1
+  eventKey: 
+  startEventDelay: 0
+  autoAdvance: 0
+  autoAdvanceDelay: 1.5
+  next: 0
+--- !u!114 &-4295035987162652479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4cc09a5cb9e9943ad322a974539695, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.EndNode
+  graph: {fileID: 11400000}
+  position: {x: 1544, y: 296}
+  ports:
+    keys:
+    - input
+    values:
+    - _fieldName: input
+      _node: {fileID: -4295035987162652479}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -933667532057098990}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 6c68f173636a47a68b206241361f6292
+  input: 0
+--- !u!114 &-933667532057098990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d3a2b9f44be942960d0ee6d0bfc09, type: 3}
+  m_Name: Set Variable
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.SetVariableNode
+  graph: {fileID: 11400000}
+  position: {x: 1272, y: 296}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: -933667532057098990}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -7502898018614086805}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: -933667532057098990}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -4295035987162652479}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: f2b700f7149e4691b66c731f70760aa3
+  input: 0
+  scope: 0
+  key: choice_Node
+  value:
+    Type: 3
+    IntValue: 0
+    FloatValue: 0
+    BoolValue: 0
+    StringValue: B
+  next: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f90012bd11fdfd40be3de4be0762f2d, type: 3}
+  m_Name: ChoiceNode Dialogue Graph
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.DialogueGraph
+  nodes:
+  - {fileID: -7255447830339299162}
+  - {fileID: -6013383260414371579}
+  - {fileID: -7001302649989662995}
+  - {fileID: -8536952701161071869}
+  - {fileID: 6697584244402046139}
+  - {fileID: -8937902121400634667}
+  - {fileID: -6592105609466306124}
+  - {fileID: -7502898018614086805}
+  - {fileID: 5171086593437363386}
+  - {fileID: -933667532057098990}
+  - {fileID: 8032484789653687208}
+  - {fileID: -4295035987162652479}
+  graphId: c5fc30afa43f4ea88fb89def65c717f1
+--- !u!114 &5171086593437363386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d3a2b9f44be942960d0ee6d0bfc09, type: 3}
+  m_Name: Set Variable
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.SetVariableNode
+  graph: {fileID: 11400000}
+  position: {x: 1272, y: -136}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: 5171086593437363386}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: -8937902121400634667}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 5171086593437363386}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 8032484789653687208}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: f2b700f7149e4691b66c731f70760aa3
+  input: 0
+  scope: 0
+  key: choice_Node
+  value:
+    Type: 3
+    IntValue: 0
+    FloatValue: 0
+    BoolValue: 0
+    StringValue: A
+  next: 0
+--- !u!114 &6697584244402046139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc8707fcce6dfe488bd412c8f607895, type: 3}
+  m_Name: Line
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.LineNode
+  graph: {fileID: 11400000}
+  position: {x: 712, y: -376}
+  ports:
+    keys:
+    - input
+    - next
+    values:
+    - _fieldName: input
+      _node: {fileID: 6697584244402046139}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: -8536952701161071869}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: next
+      _node: {fileID: 6697584244402046139}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -8937902121400634667}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 1393068cc4194ca8979d3721e9e55e36
+  input: 0
+  speakerName: Snog
+  inlineText: You chose Option A
+  tags: []
+  speedMultiplier: 1
+  eventKey: 
+  startEventDelay: 0
+  autoAdvance: 0
+  autoAdvanceDelay: 1.5
+  next: 0
+--- !u!114 &8032484789653687208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4cc09a5cb9e9943ad322a974539695, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: Assembly-CSharp::SnogDialogue.Runtime.EndNode
+  graph: {fileID: 11400000}
+  position: {x: 1544, y: -136}
+  ports:
+    keys:
+    - input
+    values:
+    - _fieldName: input
+      _node: {fileID: 8032484789653687208}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: next
+        node: {fileID: 5171086593437363386}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  nodeId: 6c68f173636a47a68b206241361f6292
+  input: 0

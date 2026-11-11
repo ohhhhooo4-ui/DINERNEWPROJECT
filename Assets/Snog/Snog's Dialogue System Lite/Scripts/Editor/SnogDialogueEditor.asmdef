@@ -1,0 +1,18 @@
+{
+    "name": "SnogDialogueEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9e6819bb322173b45968c7bf6f48c908",
+        "GUID:b8e24fd1eb19b4226afebb2810e3c19b",
+        "GUID:002c1bbed08fa44d282ef34fd5edb138"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

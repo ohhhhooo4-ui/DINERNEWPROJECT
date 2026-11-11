@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 64a54775596e67147ac8c8c74ca7d0f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Demo/DialogueGraphs/LineNodeEvent
+    Dialogue Graph.asset
+  uploadId: 896052

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d4ad2d98ade621d4199bf983c0680d07
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Demo/Prefabs/ChoiceButton.prefab
+  uploadId: 896052

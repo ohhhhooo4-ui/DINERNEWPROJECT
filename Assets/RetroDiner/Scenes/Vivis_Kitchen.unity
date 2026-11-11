@@ -50712,6 +50712,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1872548719956469347, guid: 247e3c7f175c40eeab5fb79feac6a48f,
+        type: 3}
+      propertyPath: m_TagString
+      value: TopBun
+      objectReference: {fileID: 0}
+    - target: {fileID: 2359775290152183589, guid: 247e3c7f175c40eeab5fb79feac6a48f,
+        type: 3}
+      propertyPath: m_TagString
+      value: BottomBun
+      objectReference: {fileID: 0}
     - target: {fileID: 7269147142209242276, guid: 247e3c7f175c40eeab5fb79feac6a48f,
         type: 3}
       propertyPath: m_Name

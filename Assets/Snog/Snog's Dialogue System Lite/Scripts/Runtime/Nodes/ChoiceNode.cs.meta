@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d457e1760c0beb549a7420101c6fa197
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Scripts/Runtime/Nodes/ChoiceNode.cs
+  uploadId: 896052

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d3e65cf292928b48942bad9d4f6c168
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Demo/Materials/NpcYellow.mat
+  uploadId: 896052

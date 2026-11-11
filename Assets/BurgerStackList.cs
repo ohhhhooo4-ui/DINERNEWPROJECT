@@ -93,5 +93,6 @@ public class BurgerAssembler : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        Destroy(gameObject);
     }
 }

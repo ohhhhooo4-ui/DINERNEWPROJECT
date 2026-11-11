@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10f41cbc3d4228c4fa9660d3e38259d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365160
+  packageName: Snog's Dialogue System Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snog/Snog's Dialogue System Lite/Demo/Materials/NpcGreen.mat
+  uploadId: 896052
