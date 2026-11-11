@@ -6,8 +6,11 @@ TagManager:
   tags:
   - Fluid
   - Hands
-  - CookedPatty
   - TopBun
+  - Cheese
+  - CookedBurger
+  - Salad
+  - BottomBun
   layers:
   - Default
   - TransparentFX
