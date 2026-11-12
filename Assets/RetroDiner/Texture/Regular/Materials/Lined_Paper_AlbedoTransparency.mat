@@ -24,22 +24,9 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 433f984ee2f404249be50f3f53ef0aa0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 67ad9028137ff024d9efe5dc8a691c90, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 788320f6ffc7c24459f2d2a143215de9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _Glossiness: 0.5
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

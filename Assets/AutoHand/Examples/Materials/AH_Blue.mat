@@ -86,11 +86,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0.7529936, a: 1}
-<<<<<<< Updated upstream
-    - _EmissionColor: {r: 1, g: 0, b: 0.32723713, a: 1}
-=======
     - _EmissionColor: {r: 1, g: 0, b: 0.7402892, a: 1}
->>>>>>> Stashed changes
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
