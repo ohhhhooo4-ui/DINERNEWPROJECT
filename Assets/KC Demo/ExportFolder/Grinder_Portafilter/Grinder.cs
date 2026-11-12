@@ -9,6 +9,7 @@ public class CoffeeGrinder : MonoBehaviour
 
     private bool grinding;
     public ParticleSystem coffeeParticles;
+    public AudioSource grinderAudio;
 
     private void Update()
     {
@@ -47,6 +48,11 @@ public class CoffeeGrinder : MonoBehaviour
 
         grinding = true;
 
+        if (grinderAudio != null)
+        {
+            grinderAudio.Play();
+        }
+
         //coffeeParticles.Play();
 
         Debug.Log("Grinding Started");
@@ -55,6 +61,11 @@ public class CoffeeGrinder : MonoBehaviour
     public void StopGrinding()
     {
         grinding = false;
+
+        if (grinderAudio != null)
+        {
+            grinderAudio.Stop();
+        }
 
         //coffeeParticles.Stop();
 

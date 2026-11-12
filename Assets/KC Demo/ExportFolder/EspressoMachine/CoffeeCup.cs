@@ -13,6 +13,7 @@ public class CoffeeCup : MonoBehaviour
     private void Start()
     {
         originalScale = coffeeLiquidPivot.localScale;
+        coffeeAmount = 0f;
     }
 
     private void Update()
@@ -35,4 +36,8 @@ public class CoffeeCup : MonoBehaviour
                 originalScale.z
             );
     }
+
+   
+
+  
 }

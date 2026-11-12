@@ -9,6 +9,8 @@ public class EspressoMachine : MonoBehaviour
 
     public ParticleSystem espressoFlow;
 
+    public AudioSource brewAudio;
+
     public float brewTime = 20f;
 
     public float requiredDose = 18f;
@@ -59,6 +61,11 @@ public class EspressoMachine : MonoBehaviour
 
         Debug.Log("Brewing Started");
 
+        if (brewAudio != null)
+        {
+            brewAudio.Play();
+        }
+
         if (espressoFlow != null)
             espressoFlow.Play();
 
@@ -71,7 +78,7 @@ public class EspressoMachine : MonoBehaviour
             currentCup.coffeeAmount +=
                 (currentCup.maxCoffeeAmount / brewTime)
                 * Time.deltaTime;
-
+            Debug.Log(currentCup.coffeeAmount);
             elapsedTime += Time.deltaTime;
 
             yield return null;
@@ -84,6 +91,11 @@ public class EspressoMachine : MonoBehaviour
 
         if (espressoFlow != null)
             espressoFlow.Stop();
+
+        if (brewAudio != null)
+        {
+            brewAudio.Stop();
+        }
 
         socket.currentPortaFilter.coffeeDose = 0f;
 
