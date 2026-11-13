@@ -61,8 +61,8 @@ public class BurgerCookingSequence : MonoBehaviour
 
         if (transformedObject != null)
         {
-            transformedObject.SetActive(true);
-            gameObject.SetActive(false);
+            Instantiate(transformedObject, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
 
         if (completionParticles != null)
