@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 8f184063bf651c84692927c316a9d212
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - tree: {fileID: 9197481963319205126, guid: f893d148acb28f44a977e2550950d156, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 403174
+  packageName: Sounds Good Lite - Easy & Optimized Audio Manager
+  packageVersion: 1.1.0
+  assetPath: Packages/com.melenitasdev.sounds-good/Editor/Scripts/UIToolkit/VersionUpgrader.cs
+  uploadId: 1010462

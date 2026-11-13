@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bda5c6af3989436499d018dfa30bc3ce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 403174
+  packageName: Sounds Good Lite - Easy & Optimized Audio Manager
+  packageVersion: 1.1.0
+  assetPath: Packages/com.melenitasdev.sounds-good/Samples/Demo/Materials/Custom/Mat_MusicZoneVisualizer.mat
+  uploadId: 1010462

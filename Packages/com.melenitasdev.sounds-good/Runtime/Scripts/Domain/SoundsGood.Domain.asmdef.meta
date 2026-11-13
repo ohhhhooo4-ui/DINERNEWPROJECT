@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 95a4dd9707cb7a94ebdbfa29f1947e90
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 403174
+  packageName: Sounds Good Lite - Easy & Optimized Audio Manager
+  packageVersion: 1.1.0
+  assetPath: Packages/com.melenitasdev.sounds-good/Runtime/Scripts/Domain/SoundsGood.Domain.asmdef
+  uploadId: 1010462

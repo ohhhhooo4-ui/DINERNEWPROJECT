@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4466da81c3b36cf47b20bfce3aac1e24, type: 3}
+  m_Name: EffectCollection
+  m_EditorClassIdentifier: SoundsGood.Domain::MelenitasDev.SoundsGood.Domain.EffectDataCollection
+  effects:
+  - tag: Cave
+    preset: {fileID: 11400000, guid: d96b07001adc21246ab085fac5d9f7fd, type: 2}
+  - tag: Underwater
+    preset: {fileID: 11400000, guid: 33d4cf23f5161474ba7468cc4ce4aed7, type: 2}
+  - tag: PhoneCall
+    preset: {fileID: 11400000, guid: 3b294bbd7b89ae4489d3831e0468cce6, type: 2}

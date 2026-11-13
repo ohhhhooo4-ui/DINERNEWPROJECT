@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03823195a03a8594fa3cf8d0cbb57ea7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 403174
+  packageName: Sounds Good Lite - Easy & Optimized Audio Manager
+  packageVersion: 1.1.0
+  assetPath: Packages/com.melenitasdev.sounds-good/Runtime/Prefabs/UI/Controls Hints/InteractClick-Hint.prefab
+  uploadId: 1010462

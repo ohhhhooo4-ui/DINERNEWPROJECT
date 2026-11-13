@@ -1,0 +1,32 @@
+{
+  "name": "com.melenitasdev.sounds-good",
+  "version": "1.1.0",
+  "displayName": "Sounds Good Lite - Easy & Optimized Audio Manager",
+  "description": "The easiest and quickest way to implement audio into your game - An optimized and user-friendly system for all skill levels ;D \n\nThis is the Lite edition of Sounds Good. It covers sounds, music, playlists and multiple audio channels, with the same one-line API and the same editor windows to manage them. Implement audio with a single line of code, or without code at all using the Sound, Music and Playlist emitters.",
+  "keywords": [
+    "sound",
+    "audiomanager",
+    "music",
+    "audio",
+    "soundeffects",
+    "manager"
+  ],
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.7",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "files": [
+    "Runtime",
+    "Editor",
+    "Samples",
+    "AI",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "author": {
+    "name": "Melenitas Dev",
+    "email": "contacto@melenitas.dev",
+    "url": "https://www.melenitas.dev"
+  }
+}

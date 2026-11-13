@@ -3,29 +3,23 @@ using Autohand;
 
 public class PaperNote : MonoBehaviour
 {
-    public NotePile pile;
+     NotePile pile;
 
-    private Grabbable grabbable;
-    private bool taken;
+    private bool taken = false;
 
     private void Start()
     {
-        grabbable = GetComponent<Grabbable>();
+        pile = GetComponentInParent<NotePile>();
     }
 
-    private void Update()
+
+    public void FirstGrab()
     {
-        if (taken)
-            return;
-
-        if (grabbable != null && grabbable.HeldCount() > 0)
+        if (taken == false)
         {
+            Debug.Log(gameObject.name + " grabbed the FIRST TIME");
+            pile.PaperTaken();
             taken = true;
-
-            if (pile != null)
-            {
-                pile.PaperTaken();
-            }
         }
     }
 }

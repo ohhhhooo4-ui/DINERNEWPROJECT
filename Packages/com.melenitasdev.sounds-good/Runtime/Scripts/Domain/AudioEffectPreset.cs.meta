@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 02e80280297e8ae449a198433d566f63
+AssetOrigin:
+  serializedVersion: 1
+  productId: 403174
+  packageName: Sounds Good Lite - Easy & Optimized Audio Manager
+  packageVersion: 1.1.0
+  assetPath: Packages/com.melenitasdev.sounds-good/Runtime/Scripts/Domain/AudioEffectPreset.cs
+  uploadId: 1010462
