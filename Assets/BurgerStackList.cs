@@ -91,6 +91,7 @@ public class BurgerAssembler : MonoBehaviour
 
         foreach (Transform child in transform)
         {
+            //Debug.Log("Destroying " + child.gameObject.name);
             Destroy(child.gameObject);
         }
         Destroy(gameObject);

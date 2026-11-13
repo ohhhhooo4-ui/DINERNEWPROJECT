@@ -11,6 +11,8 @@ TagManager:
   - CookedBurger
   - Salad
   - BottomBun
+  - BurgerFlipper
+  - StoveTop
   layers:
   - Default
   - TransparentFX

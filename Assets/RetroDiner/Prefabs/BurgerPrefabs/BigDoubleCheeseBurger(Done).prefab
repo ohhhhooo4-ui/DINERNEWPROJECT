@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1038182787807251490}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0877, z: 0}
+  m_LocalPosition: {x: -0, y: 0.027, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 7640656781048151727}
   - component: {fileID: 2283114864297329917}
   - component: {fileID: 4753047663965131197}
+  - component: {fileID: 6671643959586744811}
   m_Layer: 0
   m_Name: Cheese
   m_TagString: Untagged
@@ -140,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 2001909542923984712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -203,6 +204,27 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6671643959586744811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001909542923984712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33362135, y: 0.009, z: 0.33363324}
+  m_Center: {x: -0.000007644296, y: 0.079, z: 0.000999786}
 --- !u!1 &2215779595204332279
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +253,7 @@ Transform:
   m_GameObject: {fileID: 2215779595204332279}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.4709207, z: -0, w: 0.8821756}
-  m_LocalPosition: {x: 0.00084378687, y: 0.0637, z: 0.0003947541}
+  m_LocalPosition: {x: 0.00084378687, y: 0.032, z: 0.0003947541}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -342,7 +364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5051294779864982283}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.5569, y: 1.293, z: -98.8947}
   m_LocalScale: {x: 0.3865391, y: 0.3865391, z: 0.3865391}
   m_ConstrainProportionsScale: 0
@@ -501,7 +523,7 @@ Transform:
   m_GameObject: {fileID: 6589324293612391202}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.4709207, z: -0, w: 0.8821756}
-  m_LocalPosition: {x: 0.00084378687, y: 0.08, z: 0.0003947541}
+  m_LocalPosition: {x: 0.00084378687, y: 0.025, z: 0.0003947541}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -709,6 +731,7 @@ GameObject:
   - component: {fileID: 4349008793056100168}
   - component: {fileID: 2894565514301360543}
   - component: {fileID: 2446617760435275882}
+  - component: {fileID: 1635950510318687924}
   m_Layer: 0
   m_Name: CookedBurger
   m_TagString: Untagged
@@ -725,7 +748,7 @@ Transform:
   m_GameObject: {fileID: 8316487508345767017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.0039, z: 0}
+  m_LocalPosition: {x: -0, y: -0.013, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -788,3 +811,25 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1635950510318687924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8316487508345767017}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8999911773206952699, guid: 392d5b7b0666933429283c2d40dbb092, type: 3}
