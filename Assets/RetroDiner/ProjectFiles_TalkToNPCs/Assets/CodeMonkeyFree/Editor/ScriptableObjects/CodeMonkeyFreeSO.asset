@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777d270cee3a5c419cb21a828556f1a, type: 3}
+  m_Name: CodeMonkeyFreeSO
+  m_EditorClassIdentifier: 
+  currentVersion: 1.02
+  subtype: freeProjectFiles
+  lastShownTimestamp: 1794833617
+  lastUpdateResponse:
+    version: 1.02
+    versionUrl: https://unitycodemonkey.com
+    enabled: 0
+  checkedLastUpdateTimestamp: 1794833617
+  lastQOTDResponse:
+    questionId: 363
+    questionText: What will happen on January 19, 2038 at 03:14:07?
+    answerA: Armagedon
+    answerB: End of Unix Time
+    answerC: Half-Life 3 release date
+    answerD: 
+    answerE: 
+  lastQotdTimestamp: 1794833617
+  lastDynamicHeaderResponse:
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyEndOfSummerBundleOct26.png
+    topText: Back for a limited time until the END OF SUMMER, 80% OFF all my Courses
+      and Games!
+    topLink: summerbundle
+    bottomText: FREE Game Dev Insights every week straight to your inbox!
+    bottomLink: gamedevreport
+  lastDynamicHeaderTimestamp: 1794833617
+  websiteLatestMessage:
+    text: <a href="https://cmonkey.co/freeprojectfiles">Browse all the FREE Project
+      Files! Click Here!</a><br><a href="https://cmonkey.co/freecourses">Check out
+      all my FREE courses! Click Here!</a>
+  websiteLatestMessageTimestamp: 1794833617
+  websiteLatestVideos:
+    videos:
+    - youTubeId: WhWutMiW1lI
+      title: My 10th Steam game is out! Why am I both HAPPY and SAD?
+    - youTubeId: dkIfY7svIpg
+      title: TOP 10 NEW Games, Made with Unity! (OCTOBER 2026)
+    - youTubeId: 6HsAEaBkpLg
+      title: How a PRO builds a Weapon System!
+    - youTubeId: HZjtgeSpmPU
+      title: Does Unity CANCEL their features?
+  websiteLatestVideosTimestamp: 1794833617
