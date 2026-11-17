@@ -7,7 +7,7 @@ public class PlayerInteract : MonoBehaviour {
 
 
     private void Update() {
-        if (Keyboard.current.eKey.wasPressedThisFrame) {
+        if (Keyboard.current.aKey.wasPressedThisFrame) {
             IInteractable interactable = GetInteractableObject();
             if (interactable != null) {
                 interactable.Interact(transform);
