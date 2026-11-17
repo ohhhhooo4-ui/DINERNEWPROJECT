@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.02
   subtype: freeProjectFiles
-  lastShownTimestamp: 1794833617
+  lastShownTimestamp: 1794920106
   lastUpdateResponse:
     version: 1.02
     versionUrl: https://unitycodemonkey.com
     enabled: 0
-  checkedLastUpdateTimestamp: 1794833617
+  checkedLastUpdateTimestamp: 1794920106
   lastQOTDResponse:
     questionId: 363
     questionText: What will happen on January 19, 2038 at 03:14:07?
@@ -28,7 +28,7 @@ MonoBehaviour:
     answerC: Half-Life 3 release date
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1794833617
+  lastQotdTimestamp: 1794920106
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyEndOfSummerBundleOct26.png
     topText: Back for a limited time until the END OF SUMMER, 80% OFF all my Courses
@@ -36,12 +36,12 @@ MonoBehaviour:
     topLink: summerbundle
     bottomText: FREE Game Dev Insights every week straight to your inbox!
     bottomLink: gamedevreport
-  lastDynamicHeaderTimestamp: 1794833617
+  lastDynamicHeaderTimestamp: 1794920106
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freeprojectfiles">Browse all the FREE Project
       Files! Click Here!</a><br><a href="https://cmonkey.co/freecourses">Check out
       all my FREE courses! Click Here!</a>
-  websiteLatestMessageTimestamp: 1794833617
+  websiteLatestMessageTimestamp: 1794920106
   websiteLatestVideos:
     videos:
     - youTubeId: WhWutMiW1lI
@@ -52,4 +52,4 @@ MonoBehaviour:
       title: How a PRO builds a Weapon System!
     - youTubeId: HZjtgeSpmPU
       title: Does Unity CANCEL their features?
-  websiteLatestVideosTimestamp: 1794833617
+  websiteLatestVideosTimestamp: 1794920106

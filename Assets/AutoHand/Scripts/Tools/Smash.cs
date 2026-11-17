@@ -66,6 +66,7 @@ namespace Autohand.Demo{
                     particles = effect;
 
                 particles.transform.parent = null;
+                particles.gameObject.SetActive(true);
                 particles.Play();
 
                 Rigidbody rb;

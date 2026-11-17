@@ -13,6 +13,8 @@ TagManager:
   - BottomBun
   - BurgerFlipper
   - StoveTop
+  - Egg
+  - EggBroken
   layers:
   - Default
   - TransparentFX
