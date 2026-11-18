@@ -14,21 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.02
   subtype: freeProjectFiles
-  lastShownTimestamp: 1794920106
+  lastShownTimestamp: 1795006815
   lastUpdateResponse:
     version: 1.02
     versionUrl: https://unitycodemonkey.com
     enabled: 0
-  checkedLastUpdateTimestamp: 1794920106
+  checkedLastUpdateTimestamp: 1795006815
   lastQOTDResponse:
-    questionId: 363
-    questionText: What will happen on January 19, 2038 at 03:14:07?
-    answerA: Armagedon
-    answerB: End of Unix Time
-    answerC: Half-Life 3 release date
+    questionId: 364
+    questionText: 'What is the Color on the SpriteRenderer after running this code?
+
+      <p>Color
+      myColor = Color.red;</p>
+
+      <p>spriteRenderer.color = myColor;</p>
+
+      <p>myColor
+      = Color.blue;</p>'
+    answerA: Red
+    answerB: Blue
+    answerC: Don't Know
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1794920106
+  lastQotdTimestamp: 1795006815
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyEndOfSummerBundleOct26.png
     topText: Back for a limited time until the END OF SUMMER, 80% OFF all my Courses
@@ -36,12 +44,12 @@ MonoBehaviour:
     topLink: summerbundle
     bottomText: FREE Game Dev Insights every week straight to your inbox!
     bottomLink: gamedevreport
-  lastDynamicHeaderTimestamp: 1794920106
+  lastDynamicHeaderTimestamp: 1795006815
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freeprojectfiles">Browse all the FREE Project
       Files! Click Here!</a><br><a href="https://cmonkey.co/freecourses">Check out
       all my FREE courses! Click Here!</a>
-  websiteLatestMessageTimestamp: 1794920106
+  websiteLatestMessageTimestamp: 1795006815
   websiteLatestVideos:
     videos:
     - youTubeId: WhWutMiW1lI
@@ -52,4 +60,4 @@ MonoBehaviour:
       title: How a PRO builds a Weapon System!
     - youTubeId: HZjtgeSpmPU
       title: Does Unity CANCEL their features?
-  websiteLatestVideosTimestamp: 1794920106
+  websiteLatestVideosTimestamp: 1795006815
