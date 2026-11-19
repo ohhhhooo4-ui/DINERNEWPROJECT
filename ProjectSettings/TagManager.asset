@@ -15,6 +15,10 @@ TagManager:
   - StoveTop
   - Egg
   - EggBroken
+  - FriedEgg
+  - Cake
+  - Burger
+  - Plate
   layers:
   - Default
   - TransparentFX
