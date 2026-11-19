@@ -18,7 +18,7 @@ public class NPCOrderUI : MonoBehaviour
     {
        "Burger Without Cheese",
         "Coffee",
-        "Fries",
+        "Fried Egg",
         "Double Cheeseburger",
         "Cheeseburger and Fries"
 
