@@ -89,6 +89,8 @@ public class EspressoMachine : MonoBehaviour
                 currentCup.coffeeAmount,
                 currentCup.maxCoffeeAmount);
 
+        currentCup.hasEspresso = true;
+
         if (espressoFlow != null)
             espressoFlow.Stop();
 

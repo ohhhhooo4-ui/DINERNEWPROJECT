@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 272b2f592ead7784091c2b64b4c1c6a6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260535
+  packageName: Coffee Shop Assets
+  packageVersion: 1.0
+  assetPath: Assets/AK Studio Art/Coffee Shop Assets/Settings/HDRP/HDRenderPipelineAsset.asset
+  uploadId: 825410

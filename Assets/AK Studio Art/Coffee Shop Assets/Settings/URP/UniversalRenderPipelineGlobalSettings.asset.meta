@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d5c1573580067404f895f635f30cb1ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260535
+  packageName: Coffee Shop Assets
+  packageVersion: 1.0
+  assetPath: Assets/AK Studio Art/Coffee Shop Assets/Settings/URP/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 825410

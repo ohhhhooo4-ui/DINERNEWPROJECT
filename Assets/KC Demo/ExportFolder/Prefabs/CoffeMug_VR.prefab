@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 735320441958817668}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0013, y: 0.00939, z: -0.0086}
-  m_LocalScale: {x: 0.098438, y: 0.004035932, z: 0.098438}
+  m_LocalPosition: {x: 0.0013, y: 0.0071, z: -0.0086}
+  m_LocalScale: {x: 0.09582742, y: 0.026297588, z: 0.09582742}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5942422448918436949}
@@ -120,12 +120,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052961138063112791}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.582, y: 1.341, z: -3.191}
-  m_LocalScale: {x: 0.33358797, y: 0.6039019, z: 0.34490007}
+  m_LocalScale: {x: 0.3158978, y: 0.571877, z: 0.32661003}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5942422448918436949}
+  - {fileID: 3725921417887354320}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2349082948802817864
@@ -315,8 +316,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoffeeCup
   coffeeAmount: 0
+  milkAmount: 0
   maxCoffeeAmount: 40
-  coffeeLiquidPivot: {fileID: 5942422448918436949}
+  maxMilkAmount: 100
+  hasEspresso: 0
+  hasMilk: 0
+  latteComplete: 0
+  coffeeLiquidVisual: {fileID: 2656030039769106501}
+  coffeeLiquidRenderer: {fileID: 5888609747738134351}
+  espressoColor: {r: 0.15, g: 0.08, b: 0.03, a: 1}
+  latteColor: {r: 0.745283, g: 0.57699627, b: 0.40428087, a: 1}
 --- !u!1 &5637440318886905993
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,10 +351,77 @@ Transform:
   m_GameObject: {fileID: 5637440318886905993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.0077405036, z: -0, w: 0.9999701}
-  m_LocalPosition: {x: -0.028777791, y: -0.0111, z: 0.019135697}
+  m_LocalPosition: {x: -0.029, y: -0.0171, z: 0.019}
   m_LocalScale: {x: 2.5, y: 2, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2656030039769106501}
   m_Father: {fileID: 1672601190210117869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6292362614937062483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3725921417887354320}
+  - component: {fileID: 3356218824908442024}
+  - component: {fileID: 2703387846548818177}
+  m_Layer: 0
+  m_Name: LatteFillZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3725921417887354320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292362614937062483}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.025744563, y: 0.098, z: -0.0050027105}
+  m_LocalScale: {x: 0.13458315, y: 0.048545163, z: 0.13298254}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1672601190210117869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3356218824908442024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292362614937062483}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2703387846548818177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292362614937062483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbd6c6fd89754f47beb67789e2a2860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MilkPourZone
+  cup: {fileID: 6661366633029167112}

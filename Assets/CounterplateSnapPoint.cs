@@ -30,7 +30,7 @@ public class CounterPlateSnap : MonoBehaviour
             return;
 
         // Stop movement
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         rb.isKinematic = true;
 

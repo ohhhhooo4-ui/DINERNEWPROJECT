@@ -9,10 +9,20 @@ public class GrinderSocket : MonoBehaviour
     {
         currentPortafilter =
             grab.GetComponent<PortaFilter>();
+
+        if (currentPortafilter != null)
+        {
+            currentPortafilter.insertedIntoGrinder = true;
+        }
     }
 
     public void OnRemoved(PlacePoint point, Grabbable grab)
     {
+        if (currentPortafilter != null)
+        {
+            currentPortafilter.insertedIntoGrinder = false;
+        }
+
         currentPortafilter = null;
     }
 }

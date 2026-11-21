@@ -1,0 +1,33 @@
+﻿Technical Specifications - Coffee Shop Assets
+Author: AK Studio Art 
+
+=== Summary ===
+Coffee Shop Assets is a complete 3D pack for Unity featuring coffee
+machines, food, drinks, furniture, and accessories to build realistic and
+stylish coffee shops.
+ 
+=== Content ===
+- Number of Unique Meshes: 97.
+- Number of Unique Materials: 81.
+- Number of polygons: 2 to 23.134.
+- Texture sizes used:
+  - 2048x2048 (117)
+  - 1024x1024 (29)
+  - 256x256 (2)
+  - 512x512 (2)
+- Types of texture maps: BaseMap, Emissive, MaskMap, NormalMap.
+
+=== Statistics ===
+The package includes:
+  - 46 FBX models.
+  - 106 Prefabs.
+  - 81 Materials.
+  - 150 Textures.
+  - 1 Demo Scene(s) with preconfigured Lightmap.
+
+=== Notes ===
+- Optimized 3D Models for performance.
+- VR-ready assets.
+- Baked GI included.
+- Post Processing Setup provided.
+

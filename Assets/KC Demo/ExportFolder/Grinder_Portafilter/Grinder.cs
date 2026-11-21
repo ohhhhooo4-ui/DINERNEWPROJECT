@@ -62,12 +62,15 @@ public class CoffeeGrinder : MonoBehaviour
     {
         grinding = false;
 
+        if (socket.currentPortafilter != null)
+        {
+            socket.currentPortafilter.coffeeGround = true;
+        }
+
         if (grinderAudio != null)
         {
             grinderAudio.Stop();
         }
-
-        //coffeeParticles.Stop();
 
         Debug.Log("18g Dose Complete");
     }

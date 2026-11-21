@@ -10,6 +10,12 @@ public class PortaFilter : MonoBehaviour
 
     public bool tamped = false;
 
+    public bool insertedIntoGrinder;
+
+    public bool coffeeGround;
+
+    public bool insertedIntoMachine;
+
     private Vector3 originalLooseScale;
 
     private void Start()
