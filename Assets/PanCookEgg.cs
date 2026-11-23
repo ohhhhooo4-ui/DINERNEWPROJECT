@@ -9,6 +9,7 @@ public class PanCookEgg : MonoBehaviour
     {
         if (other.CompareTag("EggBroken"))
         {
+            Debug.Log("Pan is catching object " + other.gameObject.name + "("+ other.gameObject.tag + ")");
             Instantiate(
                     sunnySideEggPrefab,
                     spawnPoint.position,

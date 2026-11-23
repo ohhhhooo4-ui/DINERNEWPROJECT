@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 8756355236755631199}
   m_Layer: 0
   m_Name: CheeseBurgerSalad(Done)
-  m_TagString: Burger
+  m_TagString: CheeseBurgerSalad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.5569, y: 1.2884, z: -99.119}
-  m_LocalScale: {x: 0.3865391, y: 0.3865391, z: 0.3865391}
+  m_LocalScale: {x: 0.3557899, y: 0.3557899, z: 0.3557899}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6997566280874283165}

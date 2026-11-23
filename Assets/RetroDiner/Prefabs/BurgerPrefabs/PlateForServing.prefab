@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7190559264757622026}
   - component: {fileID: 1977111309487588941}
   - component: {fileID: 8031039887021668651}
+  - component: {fileID: 4406894670120803048}
   - component: {fileID: 99893073352036983}
   - component: {fileID: 6938145371581981047}
-  - component: {fileID: 3999005491161945852}
   - component: {fileID: 5951644789480480730}
   m_Layer: 0
   m_Name: PlateForServing
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.3357, y: 3.503, z: 3.472}
-  m_LocalScale: {x: 0.53802925, y: 0.53802925, z: 0.53802925}
+  m_LocalScale: {x: 0.495229, y: 0.495229, z: 0.495229}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6887882570064535443}
@@ -95,6 +95,59 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4406894670120803048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823845449606978410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0d9bc80124f7d4aa20a8aa419a484d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  allowedTags:
+  - CookedBacon
+  - FriedEgg
+  - Burger
+  - CheeseBurger
+  - CheeseBurgerSalad
+  - DoubleCheeseBurger
+  recipes:
+  - recipeName: EggsAndBacon
+    ingredients:
+    - tagName: CookedBacon
+      amount: 2
+    - tagName: FriedEgg
+      amount: 1
+    resultPrefab: {fileID: 2495455108133151242, guid: 42d4e5e8194e26c478fd3cf7183234e0,
+      type: 3}
+  - recipeName: BurgerSalad
+    ingredients:
+    - tagName: CheeseBurgerSalad
+      amount: 1
+    resultPrefab: {fileID: 316418897777539638, guid: ec108cc35579724418c96503f2922728,
+      type: 3}
+  - recipeName: RegularBurger
+    ingredients:
+    - tagName: Burger
+      amount: 1
+    resultPrefab: {fileID: 7971676929916911489, guid: 1fe97dbc708a05a4c8e9a088f7a2b315,
+      type: 3}
+  - recipeName: CheeseBurger
+    ingredients:
+    - tagName: CheeseBurger
+      amount: 1
+    resultPrefab: {fileID: 5211947824055274864, guid: 59e36cbb3ddd8d2488da7c5e1ffb23c4,
+      type: 3}
+  - recipeName: DoubleCheeseBurger
+    ingredients:
+    - tagName: DoubleCheeseBurger
+      amount: 1
+    resultPrefab: {fileID: 3697380500158350114, guid: f9a9b64a77f193f4bad993dfef41f9b1,
+      type: 3}
+  trackedObjects: []
 --- !u!54 &99893073352036983
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -189,23 +242,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   lockHandOnGrab: 0
---- !u!114 &3999005491161945852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5823845449606978410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2a09080c91eed44e891fda8282dac1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  acceptedTags:
-  - FriedEgg
-  - Burger
-  - Cake
-  placeEffect: {fileID: 0}
 --- !u!65 &5951644789480480730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -225,8 +261,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45, y: 0.01, z: 0.42}
-  m_Center: {x: -0.000000059604645, y: -0.01, z: 0}
+  m_Size: {x: 0.45, y: 0.015, z: 0.42}
+  m_Center: {x: -0.000000059604645, y: -0.009, z: 0}
 --- !u!1 &8063999694557451080
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,9 +272,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6887882570064535443}
-  - component: {fileID: 1451491593593816310}
+  - component: {fileID: 5757578668215366562}
+  - component: {fileID: 2349983563381670437}
+  - component: {fileID: 3409930250610815962}
   m_Layer: 0
-  m_Name: snapPoint
+  m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,14 +291,14 @@ Transform:
   m_GameObject: {fileID: 8063999694557451080}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0136, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7190559264757622026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1451491593593816310
-SphereCollider:
+--- !u!65 &5757578668215366562
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -278,5 +316,67 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.11
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.35, y: 0.06, z: 0.36}
+  m_Center: {x: 0, y: 0.02, z: 0}
+--- !u!114 &2349983563381670437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063999694557451080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0d9bc80124f7d4aa20a8aa419a484d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  allowedTags:
+  - CookedBacon
+  - FriedEgg
+  - Burger
+  - CheeseBurger
+  - CheeseBurgerSalad
+  - DoubleCheeseBurger
+  recipes:
+  - recipeName: Eggs and Bacon
+    ingredients:
+    - tagName: FriedEgg
+      amount: 1
+    - tagName: CookedBacon
+      amount: 2
+    resultPrefab: {fileID: 2495455108133151242, guid: 42d4e5e8194e26c478fd3cf7183234e0,
+      type: 3}
+  - recipeName: RegularBurger
+    ingredients:
+    - tagName: RegularBurger
+      amount: 1
+    resultPrefab: {fileID: 5545139213449068516, guid: 27eda306e8767f142a35eb78915dd8ec,
+      type: 3}
+  - recipeName: 
+    ingredients: []
+    resultPrefab: {fileID: 0}
+  - recipeName: 
+    ingredients: []
+    resultPrefab: {fileID: 0}
+  trackedObjects: []
+--- !u!65 &3409930250610815962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063999694557451080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.35, y: 0.06, z: 0.36}
+  m_Center: {x: 0, y: 0.02, z: 0}

@@ -282,7 +282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ddb50b6f0876a429d87c32d4474d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  replacementObject: {fileID: 0}
+  replacementObject: {fileID: 5447126762827810069, guid: 4cc98c42278d82140800feabd507a896,
+    type: 3}
   copyPosition: 1
   copyRotation: 1
   copyScale: 1

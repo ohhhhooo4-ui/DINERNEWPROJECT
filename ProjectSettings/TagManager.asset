@@ -19,6 +19,11 @@ TagManager:
   - Cake
   - Burger
   - Plate
+  - CookedBacon
+  - CheeseBurgerSalad
+  - CheeseBurger
+  - DoubleCheeseBurger
+  - Smasher
   layers:
   - Default
   - TransparentFX

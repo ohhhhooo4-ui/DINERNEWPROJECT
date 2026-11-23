@@ -9,7 +9,7 @@ public class NPCUITrigger : MonoBehaviour
         if (orderUI != null)
             orderUI.SetPlayerNear(true);
 
-        Debug.Log("Player entered NPC trigger");
+        //Debug.Log("Player entered NPC trigger");
     }
 
     private void OnTriggerExit(Collider other)
@@ -20,6 +20,6 @@ public class NPCUITrigger : MonoBehaviour
             orderUI.HideOrder();
         }
 
-        Debug.Log("Player left NPC trigger");
+        //Debug.Log("Player left NPC trigger");
     }
 }
