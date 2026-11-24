@@ -15,6 +15,8 @@ public class MilkPitcher : MonoBehaviour
 
     public bool milkBurnt = false;
 
+    private bool pitcherReset;
+
     public GameObject readyBorder;
 
     public Transform milkLiquidPivot;
@@ -69,6 +71,28 @@ public class MilkPitcher : MonoBehaviour
             }
         }
 
+        if (milkAmount <= 0f && !pitcherReset)
+        {
+            milkTemperature = 5f;
+
+            milkBurnt = false;
+
+            readySignalPlayed = false;
+
+            if (readyBorder != null)
+            {
+                readyBorder.SetActive(false);
+            }
+
+            pitcherReset = true;
+
+            Debug.Log("Milk Pitcher Reset");
+        }
+
+        if (milkAmount > 0f)
+        {
+            pitcherReset = false;
+        }
     }
 
     public bool IsPouring()
