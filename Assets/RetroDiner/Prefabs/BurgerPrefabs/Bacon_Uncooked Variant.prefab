@@ -46,17 +46,17 @@ PrefabInstance:
     - target: {fileID: 1645802308982235102, guid: 0cc83c4bce4d34d57a4a1a78171ab13c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.88
+      value: -5.87502
       objectReference: {fileID: 0}
     - target: {fileID: 1645802308982235102, guid: 0cc83c4bce4d34d57a4a1a78171ab13c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.126
+      value: 1.1568999
       objectReference: {fileID: 0}
     - target: {fileID: 1645802308982235102, guid: 0cc83c4bce4d34d57a4a1a78171ab13c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -99.331
+      value: -99.42348
       objectReference: {fileID: 0}
     - target: {fileID: 1645802308982235102, guid: 0cc83c4bce4d34d57a4a1a78171ab13c,
         type: 3}
@@ -102,6 +102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bacon_Uncooked Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133792350832887140, guid: 0cc83c4bce4d34d57a4a1a78171ab13c,
+        type: 3}
+      propertyPath: m_TagString
+      value: UnCooked
       objectReference: {fileID: 0}
     - target: {fileID: 2959203260696277125, guid: 0cc83c4bce4d34d57a4a1a78171ab13c,
         type: 3}

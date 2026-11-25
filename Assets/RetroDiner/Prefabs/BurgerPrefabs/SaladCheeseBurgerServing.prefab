@@ -246,8 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b9405b980709574eb65030b6c2629ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowUIOnTrigger
-  uiObject: {fileID: 3431669204784559267, guid: 57978ef0b87f51842908c85f83d42198,
-    type: 3}
+  uiObject: {fileID: 0}
   handTag: Hands
 --- !u!1001 &7053354894533689525
 PrefabInstance:
@@ -257,6 +256,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 218252110761630798}
     m_Modifications:
+    - target: {fileID: 1110584136838108720, guid: a5a5ec2ede0cb0a49bde58d395b0e85c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -354735261257320667, guid: 392d5b7b0666933429283c2d40dbb092,
+        type: 3}
+    - target: {fileID: 1116468782404763835, guid: a5a5ec2ede0cb0a49bde58d395b0e85c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -354735261257320667, guid: 1b04f37c9a6d5a24a8eed4a14aa9d926,
+        type: 3}
     - target: {fileID: 2123748594626437419, guid: a5a5ec2ede0cb0a49bde58d395b0e85c,
         type: 3}
       propertyPath: m_Name

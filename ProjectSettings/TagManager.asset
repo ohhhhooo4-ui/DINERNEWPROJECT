@@ -24,6 +24,8 @@ TagManager:
   - CheeseBurger
   - DoubleCheeseBurger
   - Smasher
+  - UnCooked
+  - UnCookedBacon
   layers:
   - Default
   - TransparentFX

@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9accb1f2ece7c4d489df690c83a579e6, type: 2}
+  - {fileID: -354735261257320667, guid: 392d5b7b0666933429283c2d40dbb092, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4974,8 +4974,6 @@ GameObject:
   - component: {fileID: 5914689146552386547}
   - component: {fileID: 8846339031414284474}
   - component: {fileID: 5864259778238847606}
-  - component: {fileID: 8107062068848238195}
-  - component: {fileID: 2284611481937328330}
   m_Layer: 0
   m_Name: BurgerWhole
   m_TagString: Untagged
@@ -4993,7 +4991,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.92045, y: 0.92045, z: 0.92045}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1553289360029127511}
@@ -5172,37 +5170,3 @@ MonoBehaviour:
   copyScale: 0
   destroyOriginal: 1
   destroyDelay: 0
---- !u!114 &8107062068848238195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5784702436556591373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0a09ef4fadef6240be9423a58d0a12a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShowUIOnGrab
-  uiObject: {fileID: 0}
---- !u!65 &2284611481937328330
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5784702436556591373}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
