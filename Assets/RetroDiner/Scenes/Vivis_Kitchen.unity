@@ -373,7 +373,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7484197
 RectTransform:
   m_ObjectHideFlags: 0
@@ -722,14 +722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0107b1efd075cdb4cb6186d368365e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  oilParticles: {fileID: 0}
-  oilSurface: {fileID: 0}
-  containerCapacity: 1000
-  fillSpeed: 1
-  isPouring: 0
-  pourAngle: 45
-  currentOil: 0
-  previousParticleCount: 0
 --- !u!1001 &17894915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15010,7 +15002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &492102061
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45728,22 +45720,22 @@ PrefabInstance:
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.446
+      value: -2.576
       objectReference: {fileID: 0}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.707
+      value: 1.376
       objectReference: {fileID: 0}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -100.961
+      value: -99.706
       objectReference: {fileID: 0}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.72339916
+      value: -0.70453095
       objectReference: {fileID: 0}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
@@ -45753,7 +45745,7 @@ PrefabInstance:
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.69043
+      value: -0.70967335
       objectReference: {fileID: 0}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
@@ -45768,7 +45760,7 @@ PrefabInstance:
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 272.672
+      value: 450.417
       objectReference: {fileID: 0}
     - target: {fileID: 7942002210973373747, guid: a5226a72c9553294abfe172a458b5805,
         type: 3}
@@ -49508,14 +49500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0107b1efd075cdb4cb6186d368365e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OilPouring
-  oilParticles: {fileID: 0}
-  oilSurface: {fileID: 0}
-  containerCapacity: 1000
-  fillSpeed: 1
-  isPouring: 1
-  pourAngle: 45
-  currentOil: 0
-  previousParticleCount: 0
 --- !u!1 &1284663294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5715262837527787173, guid: c002f17e5db147f4f98c9b2c0858ae40,
@@ -70788,7 +70772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1917595834
 RectTransform:
   m_ObjectHideFlags: 0
