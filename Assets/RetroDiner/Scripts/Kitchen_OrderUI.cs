@@ -16,11 +16,11 @@ public class NPCOrderUI : MonoBehaviour
 
     private string[] orders =
     {
-       "Burger Without Cheese",
-        "Coffee",
-        "Fried Egg",
+       "Cheeseburger Without Cheese",
+        "Fried Egg and Bacon",
         "Double Cheeseburger",
-        "Cheeseburger and Fries"
+        "Cheeseburger With Salad",
+        "Cheeseburger"
 
     };
 

@@ -250,7 +250,7 @@ MonoBehaviour:
   smashForce: 2
   destroyOnSmash: 1
   releaseOnSmash: 1
-  effect: {fileID: 0}
+  effect: {fileID: 3946322889169472488}
   createNewEffect: 0
   applyVelocityOnSmash: 1
   smashSound: {fileID: 8300000, guid: 3c73ab236391cd748b00945c22254c46, type: 3}
@@ -266,6 +266,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7250564194406416476}
     m_Modifications:
+    - target: {fileID: 13142849079361715, guid: 301e43ab9a371634c8e2a055386d5fe4,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 665465953483820065, guid: 301e43ab9a371634c8e2a055386d5fe4,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -346,6 +351,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301e43ab9a371634c8e2a055386d5fe4, type: 3}
+--- !u!198 &3946322889169472488 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 13142849079361715, guid: 301e43ab9a371634c8e2a055386d5fe4,
+    type: 3}
+  m_PrefabInstance: {fileID: 3957140803708963675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4600043676830517114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 665465953483820065, guid: 301e43ab9a371634c8e2a055386d5fe4,
