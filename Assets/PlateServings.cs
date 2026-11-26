@@ -75,7 +75,7 @@ public class PlateRecipeTrigger : MonoBehaviour
     {
         Transform current = start;
 
-        while (current != null)
+        if (current != null)
         {
             if (allowedTags.Contains(current.tag))
             {
