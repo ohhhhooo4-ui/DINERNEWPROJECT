@@ -133,7 +133,7 @@ MonoBehaviour:
     ingredients:
     - tagName: Burger
       amount: 1
-    resultPrefab: {fileID: 7971676929916911489, guid: 1fe97dbc708a05a4c8e9a088f7a2b315,
+    resultPrefab: {fileID: 612556686877854861, guid: aca901d78e9fd2d44b7ee0a816873c73,
       type: 3}
   - recipeName: CheeseBurger
     ingredients:
